@@ -23,7 +23,7 @@ jobs:
         with:
           java-version: '17'
           distribution: 'temurin'
-          cache: maven
+          cache: maven # Sauvegarder les dependencies pour les futur builds
 
       # Étape 3 : Compiler le code pour vérifier qu'il n'y a pas d'erreur de syntaxe
       - name: Compilation du code (Maven Compile)
